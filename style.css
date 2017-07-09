@@ -2,7 +2,6 @@
 
 body {
   background-color: #272B33;
-  color: #FE5B35;
   font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
 }
@@ -18,4 +17,16 @@ body {
   outline: none;
   border: 1px #ccc;
   box-shadow: 0 0 8px #CCC, 0 0 10px #4169E1, 0 0 16px #4169E1, 0 0 25px #4169E1, 0 0 36px #4169E1, 0 0 52px #4169E1;
+}
+
+.rotate {
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.normal {
+   -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
 }
