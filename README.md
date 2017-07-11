@@ -9,3 +9,10 @@ No guarantees!
 
 * made with Electron
 * this is my FIRST desktop app!
+
+##How To Run in terminal:
+
+```
+  npm start
+
+```
