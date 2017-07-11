@@ -1,7 +1,8 @@
 {
   "name": "fidgetcounter",
+  "productName": "Fidget Counter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A desktop fidget gadget",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
