@@ -5,11 +5,17 @@
   "description": "A desktop fidget gadget",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "build"
   },
   "author": "Laura Veee <droolaquarium@gmail.com> (https://cyclokitty.github.io/)",
   "license": "MIT",
   "devDependencies": {
-    "electron": "1.6.11"
+    "electron": "1.6.11",
+    "electron-builder": "19.15.5"
+  },
+  "build": {
+    "appId": "com.Cyclokitty.FidgetCounter",
+    "files": "!build-assets${/*}"
   }
 }
